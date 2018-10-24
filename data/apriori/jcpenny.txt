@@ -1,0 +1,20 @@
+1  dress,blazer,top,boots,skirt
+2  jeans,top,jacket,boots
+3  suit,blazer,shoe,boots
+4  dress,boots,skirt
+5  jeans,blazer,shoe
+6  dress,top,jewellery
+7  suit,shoe,jacket,boots
+8  dress,blazer,skirt
+9  suit,shoe,jacket
+10 jeans,jewellery,skirt
+11 suit,jewellery
+12 dress,suit top,boots,jewellery
+13 blazer,shoe,jewellery
+14 jeans,jacket,skirt
+15 top,boots,jewellery
+16 dress,jeans,top,jewellery
+17 top,shoe,skirt,blazer
+18 blazer,jewellery
+19 jeans,suit,top
+20 dress,suit,shoe,blazer,jewellery
