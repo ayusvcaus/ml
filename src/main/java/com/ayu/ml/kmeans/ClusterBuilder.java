@@ -28,11 +28,13 @@ public class ClusterBuilder implements Runnable {
 			        }
 			    }
 		    }
-		    data[p][q].cluster = cluster;
-		    center[cluster].totalRed += data[p][q].red;
-		    center[cluster].totalGreen += data[p][q].green;
-		    center[cluster].totalBlue += data[p][q].blue;
-		    center[cluster].totalCluster++;
+		    if (cluster>=0) {
+		        data[p][q].cluster = cluster;
+		        center[cluster].totalRed += data[p][q].red;
+		        center[cluster].totalGreen += data[p][q].green;
+		        center[cluster].totalBlue += data[p][q].blue;
+		        center[cluster].totalCluster++;
+		    }
 	    }
 	}	
 	

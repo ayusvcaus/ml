@@ -23,9 +23,8 @@ public class PhotoKmeans {
 		String path = "data/kmeans/huiling1.jpg";
 
 		long t1 = System.currentTimeMillis();
-		int[] K = new int[1];
 		data = read(path);
-		int k = 200;
+		int k = 50;
 		System.out.println("k=" + k);
 		
 		long t2 = System.currentTimeMillis();
